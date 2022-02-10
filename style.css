@@ -11,3 +11,19 @@ a{
 img{
     cursor: pointer;
 }
+
+/* ------nav style start here------ */
+
+nav{
+    display: flex;
+    text-align: center;
+    padding: 10px 2%;
+    justify-content: space-between;
+    top: 0;
+    z-index: 100;
+    position: static;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ------nav style end here------ */
