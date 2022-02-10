@@ -12,6 +12,10 @@ img{
     cursor: pointer;
 }
 
+.common-flex{
+    display: flex;
+    text-align: center;
+}
 /* ------nav style start here------ */
 
 nav{
