@@ -186,3 +186,58 @@ nav{
     margin-bottom: 5px;
 }
 /* ---------contener end------ */
+
+/* ----responsive---- */
+@media (max-width: 900px){
+   
+    .container, .large-container{
+        padding-left: 7%;
+        padding-right: 5%;
+    }
+    
+    .nav-right .user-img{
+        display: block;
+    }
+}
+@media (max-width:768px) {
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .nav-right img{
+        display: none;
+    }
+}
+@media (max-width:668px) {
+    
+    .nav-medel .serch-box input{
+        width: 200px;
+        padding: 5px;
+       
+    } 
+    .nav-right img{
+        display: block;
+    }
+}
+@media (max-width:560px) {
+    
+    .nav-medel .serch-box input{
+        display: none;
+    } 
+    .nav-right img{
+        display: block;
+        width: 17px;
+    }
+    .nav-left .logo{
+        width: 90px;
+    }
+    .nav-medel .serch-box img{
+        display: none;
+    }
+    .container{
+        padding-left: 3%;
+    }
+}
+/* ----responsive---- */
