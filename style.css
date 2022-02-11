@@ -252,3 +252,26 @@ nav{
     }
 }
 /* ----responsive---- */
+
+/* -------play video page------ */
+.play-saidbar{
+    width: 2%;
+}
+.play-container{
+    padding-left: 5%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.play-video{
+    flex-basis: 69%;
+}
+.right-saidbar{
+    flex-basis: 30%;
+}
+.play-video video{
+    width: 100%;
+}
+/* -------play video page------ */
