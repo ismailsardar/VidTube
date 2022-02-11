@@ -274,4 +274,29 @@ nav{
 .play-video video{
     width: 100%;
 }
+.said-video-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.small-tamnel{
+    flex-basis: 49%;
+}
+.small-tamnel img{
+    width: 100%;
+}
+.side-video-info{
+    flex-basis: 49%;
+}
+.side-video-info a{
+    font-size: 14px;
+    font-weight: 600;
+    width: fit-content;
+}
+.side-video-info p{
+    font-size: 11px;
+    font-weight: 300;
+    color: rgb(133, 131, 131);
+    width: fit-content;
+}
 /* -------play video page------ */
