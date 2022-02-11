@@ -299,4 +299,8 @@ nav{
     color: rgb(133, 131, 131);
     width: fit-content;
 }
+.play-video .tags a{
+    font-size: 11px;
+    color: #6e6efc;
+}
 /* -------play video page------ */
