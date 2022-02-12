@@ -354,6 +354,9 @@ nav{
     align-items: center;
     margin-top: 20px;
 }
+.publisher .publi-div{
+    display: flex;
+}
 .publisher div{
     flex: 1;
 }
@@ -479,4 +482,76 @@ nav{
     margin-right: 15px;
     
 }
+/* ------pagr responsive------- */
+@media (max-width:800px) {
+    .sidebar{
+        display: none;
+    }
+}
+@media (max-width:580px) {
+    .play-video{
+        flex-basis: 100%;
+    }
+    .right-saidbar{
+        flex-basis: 100%;
+    }
+    
+    .play-container{
+        padding-left: 5%;
+    }
+}
+@media (max-width:468px) {
+
+    .play-container{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .right-saidbar{
+        flex-basis: 100%;
+    }
+    .play-video h3{
+        font-size: 16px;
+    }
+    .play-video-inof div a img{
+        width: 11px;
+        margin-right: 3px;
+    }
+    .play-video-inof div a{
+        font-size: 11px;
+        margin-right: 0px;
+    }
+    .play-video-inof div a:last-child{
+        display: none;
+    }
+    .play-video-inof p{
+        font-size: 11px;
+    }
+    .publisher img{
+        width: 30px;
+    }
+    .chanel-dec p{
+        padding-left: 45px;
+    }
+    .comments-list div p{
+        font-size: 12px;
+    }
+    .comments-list img{
+        width: 25px;
+        margin-right: 5px;
+    }
+    .publisher{
+        display: block;
+    }
+    .publisher button{
+        margin-left: 110px;
+        margin-top: 10px;
+        padding: 5px 10px;
+    }
+    .chanel-dec p{
+        padding-left: 20px;
+    }
+}
+
+/* ------pagr responsive------- */
 /* -------play video page------ */
